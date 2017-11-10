@@ -37,6 +37,10 @@ public class Main {
             Connector con = new Connector("band.dat");
             Bureau test = new Bureau();
             test.hireWorkers(5);
+            Task task = new Task(12, 3, 100, 10);
+            test.setCurrentTask(task);
+            test.startCurrentTask();
+            System.out.println();
             System.out.println(test);
             con.write(test);
             newBureau = con.read();
@@ -45,8 +49,6 @@ public class Main {
         } catch (Exception e) {
             System.err.println(e);
         }
-        Task task = new Task(12, 3, 100, 10);
-        newBureau.setCurrentTask(task);
-        newBureau.startCurrentTask();
+
     }
 }

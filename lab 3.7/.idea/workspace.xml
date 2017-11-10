@@ -15,8 +15,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+            <state relative-caret-position="373">
+              <caret line="42" column="31" lean-forward="false" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -24,11 +24,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Task.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Task.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="33" column="83" lean-forward="false" selection-start-line="33" selection-start-column="83" selection-end-line="33" selection-end-column="83" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Bureau.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Bureau.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="93" column="9" lean-forward="false" selection-start-line="93" selection-start-column="9" selection-end-line="93" selection-end-column="9" />
+            <state relative-caret-position="475">
+              <caret line="95" column="9" lean-forward="true" selection-start-line="95" selection-start-column="9" selection-end-line="95" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -39,8 +49,8 @@
       <file leaf-file-name="Planner.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Planner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+            <state relative-caret-position="119">
+              <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,15 +73,14 @@
       <file leaf-file-name="AppLocale.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AppLocale.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-86">
-              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="203">
+              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding>
                 <element signature="e#271#272#0" expanded="true" />
                 <element signature="e#307#308#0" expanded="true" />
                 <element signature="e#491#492#0" expanded="true" />
                 <element signature="e#527#528#0" expanded="true" />
                 <element signature="e#886#887#0" expanded="true" />
-                <element signature="e#923#924#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -81,7 +90,7 @@
         <entry file="file://$PROJECT_DIR$/src/Connector.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
-              <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+              <caret line="29" column="32" lean-forward="false" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
               <folding>
                 <element signature="e#113#114#0" expanded="true" />
                 <element signature="e#153#154#0" expanded="true" />
@@ -107,18 +116,18 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Connector.java" />
         <option value="$PROJECT_DIR$/src/Worker.java" />
-        <option value="$PROJECT_DIR$/src/Task.java" />
         <option value="$PROJECT_DIR$/resources/Msg.properties.txt" />
         <option value="$PROJECT_DIR$/resources/Msg_be_BY.properties.txt" />
         <option value="$PROJECT_DIR$/resources/Msg_be_BY.properties.utf16.txt" />
         <option value="$PROJECT_DIR$/resources/Msg_ru_RU.properties.utf16.txt" />
         <option value="$PROJECT_DIR$/resources/Msg_en_GB.properties.utf16.txt" />
         <option value="$PROJECT_DIR$/resources/Msg_en_GB.properties.txt" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/AppLocale.java" />
         <option value="$PROJECT_DIR$/src/Bureau.java" />
+        <option value="$PROJECT_DIR$/src/Connector.java" />
+        <option value="$PROJECT_DIR$/src/Task.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/Planner.java" />
       </list>
     </option>
@@ -281,17 +290,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Task.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="31" column="63" lean-forward="false" selection-start-line="31" selection-start-column="59" selection-end-line="31" selection-end-column="63" />
-          <folding>
-            <element signature="e#188#189#0" expanded="true" />
-            <element signature="e#252#253#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/Msg_en_GB.properties.utf16.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -359,62 +357,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Connector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding>
-            <element signature="e#113#114#0" expanded="true" />
-            <element signature="e#153#154#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Bureau.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="93" column="9" lean-forward="false" selection-start-line="93" selection-start-column="9" selection-end-line="93" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Worker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="21" column="95" lean-forward="false" selection-start-line="21" selection-start-column="67" selection-end-line="21" selection-end-column="95" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppLocale.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-86">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="e#271#272#0" expanded="true" />
-            <element signature="e#307#308#0" expanded="true" />
-            <element signature="e#491#492#0" expanded="true" />
-            <element signature="e#527#528#0" expanded="true" />
-            <element signature="e#886#887#0" expanded="true" />
-            <element signature="e#923#924#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Msg.properties">
       <provider editor-type-id="ResourceBundle">
         <state />
@@ -459,10 +401,73 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppLocale.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding>
+            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+            <element signature="e#527#528#0" expanded="true" />
+            <element signature="e#886#887#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Worker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="21" column="95" lean-forward="false" selection-start-line="21" selection-start-column="67" selection-end-line="21" selection-end-column="95" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Connector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="29" column="32" lean-forward="false" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+          <folding>
+            <element signature="e#113#114#0" expanded="true" />
+            <element signature="e#153#154#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Task.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="33" column="83" lean-forward="false" selection-start-line="33" selection-start-column="83" selection-end-line="33" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="42" column="31" lean-forward="false" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Bureau.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="95" column="9" lean-forward="true" selection-start-line="95" selection-start-column="9" selection-end-line="95" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Planner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        <state relative-caret-position="119">
+          <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

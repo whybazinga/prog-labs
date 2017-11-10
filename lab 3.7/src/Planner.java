@@ -33,9 +33,9 @@ public class Planner implements Serializable {
     @Override
     public String toString() {
         StringBuilder result = new StringBuilder(AppLocale.Planner + ":\n");
-        result.append(AppLocale.getString(AppLocale.price) + " " + String.format("%.2f", price) + "\n");
-        result.append(AppLocale.getString(AppLocale.salary) + " " + String.format("%.2f", salary) + "\n");
-        result.append(AppLocale.getString(AppLocale.complexity) + " " + complexity + "\n");
+        result.append(AppLocale.getString(AppLocale.price) + " " + String.format("%.2f", price) + " ");
+        result.append(AppLocale.getString(AppLocale.salary) + " " + String.format("%.2f", salary) + " ");
+        result.append(AppLocale.getString(AppLocale.complexity) + " " + complexity + " ");
         return result.toString();
     }
 }

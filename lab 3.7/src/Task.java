@@ -1,4 +1,6 @@
-public class Task {
+import java.io.Serializable;
+
+public class Task implements Serializable {
     private int floors;
     private double area;
     private double floorHeight;
@@ -26,10 +28,10 @@ public class Task {
     @Override
     public String toString() {
         StringBuilder result = new StringBuilder(AppLocale.Task + ":\n");
-        result.append(AppLocale.getString(AppLocale.area) + " " + area + "; ");
-        result.append(AppLocale.getString(AppLocale.floorHeight) + " " + floorHeight + "; ");
-        result.append(AppLocale.getString(AppLocale.floors) + " " + floors + "; ");
-        result.append("\n" + AppLocale.getString(AppLocale.days) + " " + days + "\n");
+        result.append(AppLocale.getString(AppLocale.area) + ": " + area + "; ");
+        result.append(AppLocale.getString(AppLocale.floorHeight) + ": " + floorHeight + "; ");
+        result.append(AppLocale.getString(AppLocale.floors) + ": " + floors + "; ");
+        result.append("\n" + AppLocale.getString(AppLocale.days) + ": " + days + " ");
         return result.toString();
     }
 }

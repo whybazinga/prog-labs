@@ -23,7 +23,7 @@ public class AppLocale {
         try {
             value = new String(res.getString(key).getBytes("ISO-8859-1"), "UTF-8");
         } catch (Exception e) {
-            System.out.println(e.toString() + " during translating");
+            e.printStackTrace();
         }
         return value;
     }

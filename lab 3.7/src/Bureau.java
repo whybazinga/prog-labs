@@ -64,13 +64,13 @@ public class Bureau implements Serializable {
 
     private String taskMessage(double totalDays, double totalPrice) {
         StringBuilder result = new StringBuilder(AppLocale.getString(AppLocale.Task) + " - " + AppLocale.getString(AppLocale.information) + ":\n");
-        result.append(AppLocale.getString(AppLocale.workers + ":"));
+        result.append(AppLocale.getString(AppLocale.workers) + ": ");
         if (!employees.isEmpty()) {
             busy.forEach((item) -> result.append(" " + item.ID + ","));
         } else {
             result.append(AppLocale.getString(AppLocale.everyone));
         }
-        result.append("\n" + AppLocale.getString(AppLocale.days) + " " + currentTask.getDays() + " + " + (int) (totalDays - currentTask.getDays()) + "\n");
+        result.append("\n" + AppLocale.getString(AppLocale.days) + ": " + currentTask.getDays() + " + " + (int) (totalDays - currentTask.getDays()) + " (extra)\n");
         result.append(AppLocale.getString(AppLocale.price) + " " + String.format("%.2f", totalPrice) + "$");
         return result.toString();
     }
@@ -86,8 +86,10 @@ public class Bureau implements Serializable {
     public String toString() {
         StringBuilder result = new StringBuilder();
         result.append(currentTask + "\n");
-        result.append(AppLocale.getString(AppLocale.statusFree) + " " + AppLocale.getString(AppLocale.workers) + ":\n");
-        employees.forEach((item) -> result.append(item + "\n"));
+        if (!employees.isEmpty()) {
+            result.append(AppLocale.getString(AppLocale.statusFree) + " " + AppLocale.getString(AppLocale.workers) + ":\n");
+            employees.forEach((item) -> result.append(item + "\n"));
+        }
         if (!busy.isEmpty()) {
             result.append(AppLocale.getString(AppLocale.statusBusy) + " " + AppLocale.getString(AppLocale.workers) + ":\n");
             busy.forEach((item) -> result.append(item + "\n"));

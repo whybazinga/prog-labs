@@ -30,6 +30,7 @@ public class Connector {
         try (ObjectInputStream oin = new ObjectInputStream(fis)) {
             Task temp = (Task) oin.readObject();
             Bureau result = new Bureau();
+            result.currentTask = temp;
             int length1 = oin.readInt();
             for (int i = 0; i < length1; i++) {
                 result.employees.add((Worker) oin.readObject());
