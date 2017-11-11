@@ -11,25 +11,17 @@ public class AppLocale {
 
     static void set(Locale loc) {
         AppLocale.loc = loc;
+        System.out.println(AppLocale.strMsg + " " + AppLocale.loc);
         res = ResourceBundle.getBundle(AppLocale.strMsg, AppLocale.loc);
+        System.out.println(res.getLocale());
     }
 
     static ResourceBundle getBundle() {
         return AppLocale.res;
     }
 
-    private static String translate(String key) {
-        String value = "";
-        try {
-            value = new String(res.getString(key).getBytes("ISO-8859-1"), "UTF-8");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        return value;
-    }
-
     static String getString(String key) {
-        return translate(key);
+        return res.getString(key);
     }
 
     // Resource keys:

@@ -27,13 +27,14 @@ public class Main {
     public static void main(String[] args) {
         setupConsole(args);
         Locale loc = createLocale(args);
-        Bureau newBureau = null;
+
         try {
             if (loc == null) {
                 System.err.println("Invalid argument(s)");
                 System.exit(1);
             }
             AppLocale.set(loc);
+            System.out.println(/*AppLocale.getBundle().getBaseBundleName() +*/ "\n\n\n");
             Connector con = new Connector("band.dat");
             Bureau test = new Bureau();
             test.hireWorkers(5);
@@ -43,7 +44,7 @@ public class Main {
             System.out.println();
             System.out.println(test);
             con.write(test);
-            newBureau = con.read();
+            Bureau newBureau = con.read();
             System.out.println("\n" + AppLocale.getString(AppLocale.bureau) + ":\n");
             System.out.println(newBureau);
         } catch (Exception e) {
