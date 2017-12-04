@@ -11,7 +11,7 @@ public class Graph extends Applet {
 
     public class CoordinateSystem {
         Point center;
-        private static final int PADDING = 25;
+        private static final int PADDING = 50;
         int csHeight;
         int csWidth;
 
@@ -24,23 +24,18 @@ public class Graph extends Applet {
 
     CoordinateSystem cs = new CoordinateSystem();
 
-    public Graph() {
+    public void init() {
         humidity = new ArrayList<>();
         int i = 0;
-        /*while (this.getParameter("param_0" + i) != null) {
+        while (this.getParameter("param_" + i) != null) {
             humidity.add(Integer.parseInt(getParameter("param_" + i++)));
-        }*/
-        while (i < 4) {
-            humidity.add(i * 20 + (i % 2 == 0 ? 1 : -1) * 10);
-            System.out.println(humidity.get(i));
-            i++;
         }
         count = i;
     }
 
     int[][][] makeParts() {
         int[] coordinates = new int[count];
-        int partWidth = Math.round((cs.csHeight - 20) / (count - 1));
+        int partWidth = Math.round((cs.csWidth - 20) / (count - 1));
         for (int i = 0; i < count; i++) {
             coordinates[i] = Math.round((cs.csHeight - 20) * humidity.get(i) / 100);
         }
@@ -70,9 +65,11 @@ public class Graph extends Applet {
     public void paint(Graphics g) {
         drawCoordinateSystem(g);
         int[][][] parts = makeParts();
-        for (int i = 0; i < count; i++) {
-            g.drawPolygon(parts[0][i], parts[1][i], count);
+        for (int i = 0; i < count - 1; i++) {
+            g.drawPolygon(parts[0][i], parts[1][i], 4);
+            g.drawString(" " + (i + 1) + ": ( " + humidity.get(i) + "% )", parts[0][i][3] + 10, parts[1][i][3] + 5);
         }
+        g.drawString(" " + (count - 1) + ": ( " + humidity.get(count - 1) + "% )", parts[0][count - 2][0] + 10, parts[1][count - 2][0] + 5);
     }
 
 }
