@@ -69,7 +69,7 @@ public class Graph extends Applet {
             g.drawPolygon(parts[0][i], parts[1][i], 4);
             g.drawString(" " + (i + 1) + ": ( " + humidity.get(i) + "% )", parts[0][i][3] + 10, parts[1][i][3] + 5);
         }
-        g.drawString(" " + (count - 1) + ": ( " + humidity.get(count - 1) + "% )", parts[0][count - 2][0] + 10, parts[1][count - 2][0] + 5);
+        g.drawString(" " + (count) + ": ( " + humidity.get(count - 1) + "% )", parts[0][count - 2][0] + 10, parts[1][count - 2][0] + 5);
     }
 
 }
